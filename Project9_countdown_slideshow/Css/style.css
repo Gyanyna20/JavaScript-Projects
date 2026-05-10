@@ -1,0 +1,45 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/*slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/*Hide the images by default*/
+    .mySlides {
+    display: none;
+}
+
+/*Next and previous buttons*/
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px;
+user-select: none;
+}
+/*Position the next button to the right*/
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+
+}
+
+/*On hover, add a slightly transparent black background color to prev and next buttons*/
+.prev:hover,
+.next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
